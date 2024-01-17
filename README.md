@@ -1,26 +1,26 @@
 # Detekce ukončení - Algoritmus Dijkstra-Scholten
 
-##Popis
+## Popis
 Tento Java program implementuje detekci ukončení pomocí algoritmu Dijkstra-Scholten. Algoritmus je navržen pro 
 distribuované systémy k detekci, kdy všechny uzly v síti dokončily své úkoly.
 
-##Použití
+## Použití
 
 Pro spuštění programu postupujte podle níže uvedených pokynů:
 
-##Spuštění prvního uzlu
+## Spuštění prvního uzlu
     java -jar dsv.jar <ip_adresa> <port>
 
 Nahraďte <ip_adresa> a <port> požadovanou IP adresou a portem pro první uzel.
 
-##Spuštění dalších uzlů
+## Spuštění dalších uzlů
 
     java -jar dsv.jar <ip_adresa> <port> <existující_uzel_ip> <existující_uzel_port>
 
 Nahraďte <ip_adresa> a <port> IP adresou a portem nového uzlu. <existující_uzel_ip> a <existující_uzel_port> jsou IP adresa a port 
 libovolného již běžícího uzlu v síti, odkud si nový uzel může získat informace.
 
-##Příkazy uzlu
+## Příkazy uzlu
 
 Po spuštění uzlu můžete vykonávat následující příkazy:
 </br>
